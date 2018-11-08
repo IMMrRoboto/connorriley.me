@@ -1,0 +1,65 @@
+// main: layout.less
+
+body.home {
+    .wrap.contentclass {
+        //.carousel_gallery_item, .carousel_gallery_item_inner {
+        //padding-top: 0;
+    }
+    header.banner.headerclass {
+        margin-bottom: -15px;
+    }
+
+    .sliderclass {
+       // padding: 0;
+    }
+
+    .sbi_load_btn {
+        //opacity: .7 !important;
+        display: block !important;
+        width: 203.5px !important;
+        font-size: 16px !important;
+        text-transform: uppercase !important;
+        font-family: "Josefin Sans";
+    }
+
+    .sbi_follow_btn {
+        font-family: "Josefin Sans";
+        text-transform: uppercase !important;
+        margin-left: 0 !important;
+    }
+
+    .carousel_slider img {
+        max-height: 500px;
+    }
+
+}
+
+@media (max-width: 768px) {
+    body.home {
+        header.banner.headerclass {
+            margin-bottom: 0;
+        }
+
+        #mobile-nav-trigger {
+            margin: 0 -20px;
+        }
+
+        #kad-mobile-nav {
+            .kad-nav-inner {
+                margin: 0 -20px;
+            }
+        }
+
+        #content {
+            > .row {
+                margin-left: 0;
+                margin-right: 0;
+            }
+        }
+        #insta-feed {
+            margin-left: 0;
+            margin-right: 0;
+        }
+    }
+
+}

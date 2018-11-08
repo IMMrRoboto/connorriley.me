@@ -1,0 +1,60 @@
+/*
+Theme Name: Hestia-child
+Version: 1.0
+Author: Connor Riley
+Author URI: http://connor.riley.me
+Template: hestia
+Text Domain:  hestia-child
+
+License: GNU General Public License v3.0
+License URI: http://www.gnu.org/licenses/gpl.html
+*/
+
+/*
+dark blue: #41434A;
+dark teal: #6E9489;
+light teal: A3D9C9, #a6beb7;
+light brown: #DEDCC3 ;
+off white: #F2F1E9 ;
+*
+
+@import url('/wp-content/themes/hestia-child/css/layout.css');
+
+
+
+/*  Clear fix
+***********************************
+.group::after {
+    content: " ";
+    display: table;
+    clear: both;
+}
+#containerfooter {color: #aaa !important;}
+
+/*  RESPONSIVE
+***********************************
+
+@media only screen and (min-width:320px) {
+
+}
+@media only screen and (max-width:480px) {
+    .map.pcbelow iframe { width:100%; }
+
+}
+@media only screen and (max-width:768px) {
+
+}
+@media only screen and (min-width:1024px) {
+
+}
+@media only screen and (min-width:1140px) {
+
+}
+@media only screen and (min-width:1280px) {
+
+}
+@media only screen and (-webkit-min-device-pixel-ratio:1.5),
+    only screen and (min-resolution:144dpi) {
+
+    }
+*/

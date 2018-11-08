@@ -1,0 +1,51 @@
+// main: layout.less
+.row.cr-map-wrapper {
+    box-shadow: 2px 2px 10px rgba(0,0,0,.38);
+    border-radius: 20px;
+}
+
+.heatmap {
+    height: 500px;
+    border-radius: 0 0 20px 20px;
+}
+
+.heatmap-options {
+    background: #79BD9A;
+    color: white;
+    padding-top: 5px;
+    border-radius: 20px 20px 0px 0;
+
+    input[type=text] {
+        max-width: 200px;
+        font-size: .8em;
+    }
+    label {
+        display: inline-block;
+        font-size: .8em;
+        padding: 0 10px 0 2px;
+
+        &.first {
+            font-size: 1em;
+        }
+    }
+    button {
+        display: inline-block;
+        border: 1px solid #79BD9A;
+    }
+
+    .inline {
+        display: inline-block;
+    }
+
+    p {
+        margin-bottom: 1px !important;
+    }
+}
+
+#build-own-form {
+    padding-bottom: 10px;
+
+    #user-keyword {
+        display: inline-block;
+    }
+}
